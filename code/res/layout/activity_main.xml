@@ -3,7 +3,8 @@
     android:layout_height="fill_parent"
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:columnCount="1"
-    android:rowCount="2">
+    android:rowCount="2"
+    android:id="@+id/rootGrid">
 
     <LinearLayout
         android:orientation="horizontal"
@@ -24,19 +25,22 @@
                 android:layout_width="fill_parent"
                 android:layout_height="0dp"
                 android:layout_weight="0.25"
-                android:background="#ffff4135"></FrameLayout>
+                android:background="#ffff4135"
+                android:id="@+id/frame1"></FrameLayout>
 
             <FrameLayout
                 android:layout_width="fill_parent"
                 android:layout_height="0dp"
                 android:layout_weight="0.5"
-                android:background="#ffa8a8a8"></FrameLayout>
+                android:background="#ffa8a8a8"
+                android:id="@+id/frame2"></FrameLayout>
 
             <FrameLayout
                 android:layout_width="fill_parent"
                 android:layout_height="0dp"
                 android:layout_weight="0.25"
-                android:background="#ff5135ff"></FrameLayout>
+                android:background="#ff5135ff"
+                android:id="@+id/frame3"></FrameLayout>
         </LinearLayout>
 
         <LinearLayout
@@ -49,25 +53,29 @@
                 android:layout_width="fill_parent"
                 android:layout_height="0dp"
                 android:layout_weight="0.33"
-                android:background="#ffffc529"></FrameLayout>
+                android:background="#ffffc529"
+                android:id="@+id/frame4"></FrameLayout>
 
             <FrameLayout
                 android:layout_width="fill_parent"
                 android:layout_height="0dp"
                 android:layout_weight=".20"
-                android:background="#ff65a6ff"></FrameLayout>
+                android:background="#ff65a6ff"
+                android:id="@+id/frame5"></FrameLayout>
 
             <FrameLayout
                 android:layout_width="fill_parent"
                 android:layout_height="0dp"
                 android:layout_weight="0.20"
-                android:background="#ff939239"></FrameLayout>
+                android:background="#ff939239"
+                android:id="@+id/frame6"></FrameLayout>
 
             <FrameLayout
                 android:layout_width="fill_parent"
                 android:layout_height="0dp"
                 android:layout_weight="0.27"
-                android:background="#7effff42"></FrameLayout>
+                android:background="#7effff42"
+                android:id="@+id/frame7"></FrameLayout>
         </LinearLayout>
     </LinearLayout>
 
@@ -75,6 +83,7 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:id="@+id/seekBar"
-        android:layout_row="1" />
+        android:layout_row="1"
+        android:max="255" />
 
 </GridLayout>
