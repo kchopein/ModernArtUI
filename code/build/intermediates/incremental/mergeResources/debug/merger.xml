@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="main" >
+        <source path="/home/kchopein/git/CourseraAndroidModerArtUI/code/res" >
+            <file
+                name="ic_launcher"
+                path="/home/kchopein/git/CourseraAndroidModerArtUI/code/res/drawable-xxhdpi/ic_launcher.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/home/kchopein/git/CourseraAndroidModerArtUI/code/res/drawable-xhdpi/ic_launcher.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                path="/home/kchopein/git/CourseraAndroidModerArtUI/code/res/values-w820dp/dimens.xml"
+                qualifiers="w820dp-v13" >
+                <dimen name="activity_horizontal_margin" >64dp
+                </dimen>
+            </file>
+            <file
+                path="/home/kchopein/git/CourseraAndroidModerArtUI/code/res/values-v14/styles.xml"
+                qualifiers="v14" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light.DarkActionBar" >
+
+                    <!-- API 14 theme customizations can go here. -->
+                </style>
+            </file>
+            <file
+                name="ic_launcher"
+                path="/home/kchopein/git/CourseraAndroidModerArtUI/code/res/drawable-mdpi/ic_launcher.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/home/kchopein/git/CourseraAndroidModerArtUI/code/res/drawable-hdpi/ic_launcher.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                path="/home/kchopein/git/CourseraAndroidModerArtUI/code/res/values/strings.xml"
+                qualifiers="" >
+                <string name="action_settings" >Settings
+                </string>
+                <string name="title_activity_main" >MainActivity
+                </string>
+                <string name="app_name" >ModernArtUI
+                </string>
+                <string name="info_message_text" >Inspired by the works of artists such as Piet Mondrian and Ben Nicholson.
+                </string>
+                <string name="more_information" >More Information
+                </string>
+                <string name="hello_world" >Hello world!
+                </string>
+            </file>
+            <file
+                path="/home/kchopein/git/CourseraAndroidModerArtUI/code/res/values/dimens.xml"
+                qualifiers="" >
+                <dimen name="activity_horizontal_margin" >16dp
+                </dimen>
+                <dimen name="activity_vertical_margin" >16dp
+                </dimen>
+            </file>
+            <file
+                path="/home/kchopein/git/CourseraAndroidModerArtUI/code/res/values/styles.xml"
+                qualifiers="" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Light" >
+
+                    <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+                    -->
+                </style>
+
+                <style
+                    name="AppTheme"
+                    parent="AppBaseTheme" >
+
+                    <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+                </style>
+            </file>
+            <file
+                path="/home/kchopein/git/CourseraAndroidModerArtUI/code/res/values-v11/styles.xml"
+                qualifiers="v11" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light" >
+
+                    <!-- API 11 theme customizations can go here. -->
+                </style>
+            </file>
+            <file
+                name="main"
+                path="/home/kchopein/git/CourseraAndroidModerArtUI/code/res/menu/main.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="activity_main"
+                path="/home/kchopein/git/CourseraAndroidModerArtUI/code/res/layout/activity_main.xml"
+                qualifiers=""
+                type="layout" />
+        </source>
+        <source path="/home/kchopein/git/CourseraAndroidModerArtUI/code/build/generated/res/rs/debug" />
+        <source path="/home/kchopein/git/CourseraAndroidModerArtUI/code/build/generated/res/generated/debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/home/kchopein/git/CourseraAndroidModerArtUI/code/build-types/debug/res" />
+    </dataSet>
+
+</merger>

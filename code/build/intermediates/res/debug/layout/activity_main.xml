@@ -86,4 +86,4 @@
         android:layout_row="1"
         android:max="100" />
 
-</GridLayout>
+</GridLayout><!-- From: file:/home/kchopein/git/CourseraAndroidModerArtUI/code/res/layout/activity_main.xml -->
